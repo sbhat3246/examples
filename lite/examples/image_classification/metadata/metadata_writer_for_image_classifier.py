@@ -62,9 +62,9 @@ class ModelSpecificInfo(object):
 
 
 _MODEL_INFO = {
-    "mobilenet_v1_0.75_160_quantized.tflite":
+    "model.tflite":
         ModelSpecificInfo(
-            name="MobileNetV1 image classifier",
+            name="Sign Classifier",
             version="v1",
             image_width=160,
             image_height=160,
